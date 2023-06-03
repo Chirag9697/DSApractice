@@ -69,7 +69,7 @@ class Lrucode
 	public static void main(String[] args) {
         Lru l=new Lru(3);
         l.put(1,1);
-        // System.out.print(l.get(1));
+        System.out.print(l.get(1));
         // l.put(3,15);
         // l.put(2,12);
         // l.put(4,20);
