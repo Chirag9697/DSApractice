@@ -11,22 +11,6 @@ class Node{
 //10 20 30
 //5 25
 class Mergetwosortedll {
-    // static Node mergesortedll(Node head1,Node head2){
-    //     if(head1==null && head2==null){
-    //         return null;
-    //     }
-    //     if(head1==null){
-    //         return head2;
-    //     }
-    //     if(head2==null){
-    //         return head1;
-    //     }
-    //     if(head1.data<head2.data){
-    //         head1=head1.next;
-    //     }
-
-    //     return head1;   
-    // }
     public static void main(String []args){
         Node n1=new Node(10);
         Node n2=new Node(20);
@@ -41,15 +25,18 @@ class Mergetwosortedll {
         Node tail=null;
         Node a=null;
         Node b=null;
+
         if(n1.data<=n4.data){
             head=n1;
             b=head;
             b=b.next;
+            a=n4;
         }
         else{
             head=n4;
             a=head;
             a=a.next;
+            b=n1;
         }
         tail=head;
         // Node a=n1;
