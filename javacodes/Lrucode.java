@@ -75,5 +75,6 @@ class Lrucode
         l.put(4,20);
         System.out.println(l.get(2));
         l.put(4,25);
+        System.out.println(l.get(5));
 	}
 }
