@@ -1,4 +1,4 @@
-xclass Queueusingarray{
+class Queueusingarray{
     public static void main(String []args){
 
     }
